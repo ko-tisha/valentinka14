@@ -1,0 +1,33 @@
+.side1 {
+    opacity: 1;
+}
+.side1:hover {
+    opacity: 0; 
+}
+
+@media screen and (max-width: 430px) {
+    .heart1{
+        margin-top: 15vw;
+        width: 100vw;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .side1{
+        width: 80vw;
+    }
+    
+    .heart2{
+        margin-top: -73.45vw;
+        width: 100vw;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .side2{
+        width: 80vw;
+    }
+    
+}

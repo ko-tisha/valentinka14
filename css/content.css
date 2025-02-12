@@ -1,0 +1,38 @@
+body{
+    /* cursor: url(cursor.png), url(cursor2.svg) 2 2, default; */
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #FF91B2;
+}
+
+/* article {
+    cursor: url(cursor.png), url(cursor2.svg) 2 2, default;
+} */
+
+.custom-cursor {
+    cursor: url('path/to/cursor.svg'), auto;
+  }
+  
+.heart1{
+    margin-top: 8vw;
+    width: 100vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.side1{
+    width: 35vw;
+}
+
+.heart2{
+    margin-top: -32.13vw;
+    width: 100vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.side2{
+    width: 35vw;
+}
